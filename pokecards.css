@@ -1,0 +1,223 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding: 50px 0;
+    color: #eee;
+    margin: 0 0 30px;
+    background-color: #666;
+    text-transform: uppercase;
+    border-bottom: 4px solid #eee;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+ }
+  
+ .card {
+    flex: 0 1 24%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 12px solid #fff;
+
+ }
+ .card span {
+     display: block;
+ }
+ .card .id {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #666;
+    color: #eee;
+    width: 60px;
+    border-radius: 5px;
+    margin: 10px;
+ }
+ .card.info {
+     display: none;
+ }
+ .card .detalhes {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #666;
+    color: #eee;
+    border-radius: 5px;
+    margin: 10px;
+ }
+ .card img {
+    display: block;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin: 20px auto;
+ }
+ .card .name {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background: #666;
+    color: #eee;
+    text-transform: capitalize;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+ }
+ .card .list_types {
+    list-style: none;    
+    padding: 10px 0;
+    margin: 0;
+    text-align: center;
+ }
+ .card .list_types li {
+    font-size: 0.6em;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin: 2px;
+    color: #fff;
+    background: #000;
+    display: inline-block;
+    line-height: 0.5;
+    border-radius: 35px;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ }
+.grass {
+     background-color: green!important;
+}
+.card.grass {
+    background-color: rgb(190, 248, 190)!important;
+}
+.fire {
+    background-color: rgb(255, 102, 0)!important;
+}
+.card.fire {
+   background-color:  rgb(253, 175, 57)!important;
+}
+.bug {
+    background-color: rgb(216, 178, 8)!important;
+}
+.card.bug {
+   background-color: rgb(247, 248, 190)!important;
+}
+.poison {
+    background-color: rgb(60, 0, 128)!important;
+}
+.card.poison {
+   background-color: rgba(94, 31, 167, 0.342)!important;
+}
+.water {
+    background-color: aqua!important;
+    color: #000!important;
+}
+.card.water {
+   background-color: rgb(183, 255, 255)!important;
+}
+.normal {
+    background-color: #666!important;
+}
+.card.normal {
+   background-color: #fafafa!important;
+}
+.electric {
+    background-color: orange!important;
+}
+.card.electric {
+   background-color: rgb(240, 215, 169)!important;
+}
+.fairy {
+    background-color: rgb(245, 56, 87)!important;
+}
+.card.fairy {
+   background-color: rgb(248, 204, 230)!important;
+}
+.ground {
+    background-color: brown!important;
+}
+.card.ground {
+   background-color: rgb(184, 139, 139)!important;
+}
+.ghost {
+    background-color: black!important;
+}
+.card.ghost {
+   background-color: #333!important;
+}
+.dark {
+    background-color: rgb(21, 0, 54)!important;
+}
+.card.dark {
+   background-color: rgb(81, 64, 112)!important;
+}
+.psychic {
+    background-color: red!important;
+}
+.card.psychic {
+   background-color: #f90!important;
+}
+.fighting {
+    background-color: rgb(0, 84, 153)!important;
+}
+.card.fighting {
+   background-color: rgb(74, 172, 253)!important;
+}
+.rock {
+    background-color: rgb(107, 102, 126)!important;
+}
+.card.rock {
+   background-color: rgb(196, 191, 215)!important;
+}
+.dragon {
+    background-color: rgb(0, 252, 176)!important;
+    color: #000!important;
+}
+.card.dragon {
+   background-color: rgb(169, 255, 205)!important;
+}
+.ice {
+    background-color: rgb(168, 201, 214)!important;
+    color: #000!important;
+}
+.card.ice {
+   background-color: rgb(200, 218, 230)!important;
+}
+.flight {
+    background-color: rgb(209, 130, 0)!important;
+    color: #000!important;
+}
+.card.flight {
+   background-color: rgb(233, 200, 146)!important;
+}
+.steel {
+    background-color: rgb(188, 211, 223)!important;
+    color: rgb(85, 96, 102)!important;
+}
+.card.steel {
+   background-color: rgba(188, 211, 223, 0.596)!important;
+}
+.card span:hover {
+   color: #474747;
+   font: 700 18px/18px"Open Sans";
+   line-height: 50px;
+}
